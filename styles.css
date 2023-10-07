@@ -1,0 +1,103 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 20px;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    display: block;
+    text-align: left;
+    margin: 80px 50px 50px;
+    padding:0;
+
+
+}
+.first-container{
+    display: inline-block;
+    background-color: hsl(31, 77%, 52%);
+    justify-content: right;
+    width: 350px; 
+    height: 600px;
+    border-radius: 10px 0 0 10px;
+    margin: 0; 
+}
+.second-container{
+    display: inline-block;
+    background-color: hsl(184, 100%, 22%);
+    width: 350px; 
+    height: 600px;
+    border: 0;
+    margin: 0px; 
+}
+.third-container{
+    display: inline-block;
+    background-color: hsl(179, 100%, 13%);
+    width: 350px; 
+    height: 600px;
+    border-radius: 0 10px 10px 0;
+    margin: 0px; 
+}
+.btn-first {
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    margin: 50px 50px;
+    background-color: #fff;
+    color: rgb(245, 149, 31);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ea
+}
+.btn-second {
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    margin: 50px 50px;
+    background-color: #fff;
+    color:rgb(2, 144, 122);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ea
+}
+.btn-last {
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-family:'Lexend Deca', sans-serif;
+    font-size: 15px;
+    display: flex;
+    border: none;
+    margin: 50px 50px;
+    background-color: #fff;
+    color:rgb(3, 106, 103);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ea
+}
+p {
+    font-size: 15px;
+    text-align: left;
+    padding-right: 10px;
+    margin: 0 50px;
+    
+}
+img {
+    display: flex;
+    margin: 100px 50px 0;
+}
